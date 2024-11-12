@@ -8,7 +8,10 @@ def main():
     n = int(input("Introduce la cantidad de términos de la secuencia de Fibonacci que deseas ver: "))
     print("Secuencia de Fibonacci:")
     for val in fibonacci(n):
-        print(val)
+        print(val,end=" ")
+    print()
+
 
 if __name__ == "__main__":
     main()
+
